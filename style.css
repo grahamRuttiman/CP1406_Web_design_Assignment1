@@ -1,36 +1,43 @@
 body {
-    background-image: url("oldPaperBackground.jpg");
+    /*background-image: url("images/oldPaperBackground.jpg");*/
+    background-color: black;
     margin: 0;
     padding: 0;
 }
 
 .header {
-    grid-column: 1 / span 6;
+    grid-column: 1 / span 2;
     grid-row: 1 / span 1;
     position: fixed;
     display: block;
     top: 0;
     left: 0;
-    right: 0;
-    height: 60px;
+    /*right: 0;*/
+    height: 100px;
     width: 100%;
     /*padding: 0.5em;*/
-    background-color: black;
+    background-color: red;
     color: whitesmoke;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .navbarHorizontal {
-    grid-column: 1 / span 6;
-    grid-row: 2 / span 1;
+    grid-column: 4 / span 2;
+    grid-row: 1 / span 1;
     clear: both;
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
-    height: 40px;
-    width: 100%;
-    margin-top: 60px;
+    background-color: black;
+    /*left: 0;*/
+    /*right: 0;*/
+    height: 100px;
+    /*width: 100%;*/
+    /*margin-top: 120px;*/
+    display: block;
+    margin-left: 500px;
+    /*margin-right: auto;*/
+    font-size: 20px;
+    font-family: "Cabin Sketch";
 }
 
 /*ul {*/
@@ -46,14 +53,16 @@ body {
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin-top: 30px;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
 }
 
 li {
-    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
 }
 
 li a {
@@ -66,12 +75,21 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: whitesmoke;
+    color: black;
 }
 
 /*div {*/
 
 /*}*/
+
+img.main {
+    margin-top: 0;
+    left:0;
+    width: 100%;
+    max-width: 1280px;
+    height: auto;
+}
 
 .grid-container {
     position: relative;
@@ -80,7 +98,7 @@ li a:hover {
     /*margin: 110px 10px 10px;*/
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-    grid-template-rows: 50px 30px auto auto auto auto auto auto 60px;
+    grid-template-rows: 15px auto auto auto auto auto auto auto 60px;
     grid-gap: 15px;
 }
 .item1 {
@@ -116,6 +134,11 @@ li a:hover {
 .item7 {
     grid-column: 6 / span 1;
     grid-row: 6 / span 3;
+    /*grid-area: 1 / 2 / span 2 / span 3;*/
+}
+.item8 {
+    grid-column: 1 / span 6;
+    grid-row: 3;
     /*grid-area: 1 / 2 / span 2 / span 3;*/
 }
 @media only screen and (max-width: 500px) {
