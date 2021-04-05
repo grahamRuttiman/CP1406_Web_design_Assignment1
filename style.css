@@ -80,31 +80,25 @@ li a:hover {
     color: burlywood;
 }
 
-/*div {*/
-.products {
-
-}
-/*}*/
 
 .center {
     margin: auto;
 }
 
-/*img.main {*/
-/*    margin-top: 0;*/
-/*    left:0;*/
-/*    width: 100%;*/
-/*    max-width: 1280px;*/
-/*    height: auto;*/
-/*}*/
-
 .parent {
-    position: relative;
+    height: 516px;
+    /*width: 1280px;*/
+    grid-column: 1 / span 6;
+    grid-row: 2 / span 1;
+    display: block;
+    position: absolute;
     top: 0;
     left: 0;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
     /*margin-top: 6em;*/
     padding: 0;
+    width: 100%;
+    /*max-width: 1280px;*/
     /*margin-left: auto;*/
     /*margin-right: auto;*/
     /*text-align: center;*/
@@ -121,14 +115,14 @@ li a:hover {
 
 .image2 {
     position: relative;
-    /*margin: auto;*/
+    margin: auto auto auto auto;
     /*top: 20px;*/
     /*left: 492px;*/
-    top: 1.3em;
+    /*top: 1.3em;*/
     /*left: 29em;*/
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
 }
 
 .welcome {
@@ -174,17 +168,50 @@ li a:hover {
     /*box-shadow: 1px 1px 10px black;*/
 }
 
-.
+.testimonials {
+    color: burlywood;
+    margin-top: 300px;
+    padding-top: 50px;
+    height: auto;
+    grid-column: 1 / span 6;
+    grid-row: 3/ span 1;
+    /*margin: 10px;*/
+    background-color: black;
+}
+
+.customers {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Serif, serif;
+}
+
+.products {
+    grid-column: 1 / span 6;
+    grid-row: 4/ span 1;
+}
+
+/*image containers */
+.column {
+    float: left;
+    width: 25%;
+}
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 .grid-container {
     position: relative;
-    height: 1420px;
+    height: 2420px;
     /*margin-top: 450px;*/
     /*margin: 110px 10px 10px;*/
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-    grid-template-rows: 100px auto auto auto auto auto auto auto 60px;
-    grid-gap: 15px;
+    grid-template-rows: 100px auto auto auto auto auto auto 60px;
+    /*grid-gap: 15px;*/
     background-color: lawngreen;
 }
 .item1 {
