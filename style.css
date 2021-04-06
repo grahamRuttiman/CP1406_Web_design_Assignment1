@@ -2,84 +2,37 @@ body {
     /*background-image: url("images/oldPaperBackground.jpg");*/
     background-color: black;
     margin: 0;
-    /*padding: 0;*/
-    /*padding-bottom: 1px;*/
     height: auto;
-    /*width: 100%;*/
-    /*overflow: hidden;*/
     overflow-x: hidden;
     font-family: "Cabin Sketch", serif;
     color: white;
 }
 
 .header {
-    /*grid-column: 1 / span 6;*/
-    /*grid-row: 1 / span 1;*/
     position: fixed;
     display: block;
     top: 0;
     left: 0;
-    /*right: 0;*/
     height: 100px;
-    /*height: 6em;*/
     width: 100%;
-    /*padding: 0.5em;*/
     background-color: black;
     color: white;
-    /*text-align: center;*/
     z-index: 9999;
     border-bottom: 1px solid white;
-
-    /*margin-bottom: 10px*/
 }
-
-/*.navbarHorizontal {*/
-/*    !*grid-column: 4 / span 2;*!*/
-/*    !*grid-row: 1 / span 1;*!*/
-/*    !*clear: both;*!*/
-/*    position: fixed;*/
-/*    top: 0;*/
-/*    !*float: right;*!*/
-/*    !*background-color: blue;*!*/
-/*    !*left: 0;*!*/
-/*    !*right: 0;*!*/
-/*    !*height: 100px;*!*/
-/*    height: 6em;*/
-/*    !*width: 100%;*!*/
-/*    !*margin-top: 120px;*!*/
-/*    width: 100%;*/
-/*    !*display: inline;*!*/
-/*    margin: auto;*/
-/*    !*margin-left: 500px;*!*/
-/*    !*margin-left: 31em;*!*/
-/*    !*margin-left: auto;*!*/
-/*    !*margin-right: auto;*!*/
-/*    !*font-size: 20px;*!*/
-/*    font-family: "Cabin Sketch", serif;*/
-/*}*/
 
 ul {
     list-style-type: none;
 }
 
-/*li {*/
-/*    !*display: inline;*!*/
-/*    margin-left: 1em;*/
-/*    margin-right: 1em;*/
-/*    float: right;*/
-/*}*/
-
 li a {
-    /*display: block;*/
     color: white;
     text-align: center;
     padding: 0.6em;
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
-    /*background-color: white;*/
     color: burlywood;
 }
 
@@ -97,13 +50,6 @@ ul.topnav li{
     /*float: right;*/
 }
 
-/*ul.topnav a {*/
-/*    text-decoration: none*/
-/*}*/
-
-/*a:link {*/
-/*    color: blue*/
-/*}*/
 .center {
     margin: auto;
 }
@@ -111,23 +57,12 @@ ul.topnav li{
 .parent {
     margin-top: 100px;
     height: 516px;
-    /*width: 1280px;*/
-    /*grid-column: 1 / span 6;*/
-    /*grid-row: 2 / span 1;*/
     display: block;
     position: absolute;
     top: 0;
     left: 0;
-    /*margin-top: 100px;*/
-    /*margin-top: 6em;*/
     padding: 0;
     width: 100%;
-    /*max-width: 1280px;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-    /*text-align: center;*/
-    /*border-bottom: 1px solid white;*/
-
 }
 
 .image1 {
@@ -142,56 +77,31 @@ ul.topnav li{
 .image2 {
     position: relative;
     margin: auto auto auto auto;
-    /*top: 20px;*/
-    /*left: 492px;*/
-    /*top: 1.3em;*/
-    /*left: 29em;*/
     display: block;
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
 }
 
 .welcome {
-    /*display: block;*/
-    /*top: 6em;*/
-    /*margin: auto;*/
-    /*margin-left: 5.5em;*/
     font-size: 3em;
-    /*color: white;*/
     text-align: center;
     text-shadow: 2px 2px black;
-/*background-color: black;*/
     position: relative;
-    /*left: 6em;*/
     width: 100%;
 }
 
 .cta {
     display: block;
     position: relative;
-    /*top: 400px;*/
-    /*top: 18em;*/
     margin: 2em auto auto auto;
-    /*left: 540px;*/
-    /*left: 27em;*/
-    /*width: 400px;*/
     width: 25em;
-    /*color: white;*/
-    /*border: whitesmoke;*/
     background-color: black;
     color: white;
-    /*color: white;*/
     padding: 0.2em;
-    /*padding: 1em;*/
     text-align: center;
     font-size: 1.2em;
     box-shadow: 1px 1px 10px dimgrey;
-
 }
 .cta:hover {
-    /*background-color: burlywood;*/
     color: burlywood;
-    /*box-shadow: 1px 1px 10px black;*/
 }
 
 .testimonials {
@@ -203,10 +113,8 @@ ul.topnav li{
     height: 250px;
     grid-column: 1 / span 6;
     grid-row: 3/ span 1;
-    /*margin: 10px;*/
     background-color: black;
     border-bottom: 1px solid white;
-
 }
 
 .customers {
@@ -215,7 +123,6 @@ ul.topnav li{
     text-align: center;
     font-size: 1.5em;
     font-family: Serif, serif;
-
 }
 
 .products {
@@ -224,10 +131,7 @@ ul.topnav li{
     width: 100%;
     display: block;
     padding-bottom: 200px;
-    /*grid-column: 1 / span 6;*/
-    /*grid-row: 4/ span 1;*/
     border-bottom: 1px solid white;
-
 }
 
 /*image containers */
@@ -235,7 +139,6 @@ ul.topnav li{
     float: left;
     width: 25%;
 }
-/* Clear floats after image containers */
 .row::after {
     content: "";
     clear: both;
@@ -245,55 +148,10 @@ ul.topnav li{
 .grid-container {
     position: relative;
     height: auto;
-    /*overflow: hidden;*/
-    /*margin-top: 450px;*/
-    /*margin: 110px 10px 10px;*/
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     grid-template-rows: 100px auto auto auto auto;
-    /*grid-gap: 15px;*/
-    /*background-color: lawngreen;*/
 }
-/*.item1 {*/
-/*    grid-column: 1 / span 2;*/
-/*    grid-row: 3 / span 3;*/
-/*    !*grid-area: 1 / 2 / span 2 / span 3;*!*/
-/*}*/
-/*.item2 {*/
-/*    grid-column: 1 / span 2;*/
-/*    grid-row: 6 / span 3;*/
-/*    !*grid-area: 1 / 2 / span 2 / span 3;*!*/
-/*}*/
-/*.item3 {*/
-/*    grid-column: 3 / span 4;*/
-/*    grid-row: 3 / span 2;*/
-/*    !*grid-area: 1 / 2 / span 2 / span 3;*!*/
-/*}*/
-/*.item4 {*/
-/*    grid-column: 3 / span 2;*/
-/*    grid-row: 5 / span 4;*/
-/*    !*grid-area: 1 / 2 / span 2 / span 3;*!*/
-/*}*/
-/*.item5 {*/
-/*    grid-column: 4 / span 3;*/
-/*    grid-row: 4 / span 2;*/
-/*    !*grid-area: 1 / 2 / span 2 / span 3;*!*/
-/*}*/
-/*.item6 {*/
-/*    grid-column: 5 / span 1;*/
-/*    grid-row: 5 / span 4;*/
-/*    !*grid-area: 1 / 2 / span 2 / span 3;*!*/
-/*}*/
-/*.item7 {*/
-/*    grid-column: 6 / span 1;*/
-/*    grid-row: 6 / span 3;*/
-/*    !*grid-area: 1 / 2 / span 2 / span 3;*!*/
-/*}*/
-/*.item8 {*/
-/*    grid-column: 1 / span 6;*/
-/*    grid-row: 2;*/
-/*    !*grid-area: 1 / 2 / span 2 / span 3;*!*/
-/*}*/
 
 #footer {
     margin-top: 481px;
@@ -303,7 +161,6 @@ ul.topnav li{
     display: block;
     bottom: 0;
     left: 0;
-    /*right: 0;*/
     height: auto;
     width: 100%;
     padding: 0.5em;
@@ -313,7 +170,6 @@ ul.topnav li{
 }
 
 ul.footnav {
-    /*padding: 1em;*/
     float: left;
     text-align: left;
     margin: 1em;
@@ -322,10 +178,6 @@ ul.footnav {
 ul.footnav li{
     padding: 0.5em;
 
-    /*display: inline;*/
-    /*margin-left: 1em;*/
-    /*margin-right: 1em;*/
-    /*float: right;*/
 }
  ul.contacts {
      font-size: 16px;
@@ -336,16 +188,13 @@ ul.footnav li{
 
  ul.contacts li{
      padding: 0.5em;
-   /*float: left;*/
  }
 
 @media only screen and (max-width: 900px) {
 
     ul.topnav li{
-        /*display: block;*/
         margin-left:0;
         margin-right: 0;
-        /*float: right;*/
     }
     .customers {
         font-size: 1.2em;
@@ -365,7 +214,6 @@ ul.footnav li{
         display: block;
         margin-left: 1em;
         margin-right: 1em;
-        /*float: right;*/
     }
 
     .customers {
