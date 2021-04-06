@@ -1,6 +1,6 @@
 body {
     /*background-image: url("images/oldPaperBackground.jpg");*/
-    /*background-color: indigo;*/
+    background-color: black;
     margin: 0;
     /*padding: 0;*/
     /*padding-bottom: 1px;*/
@@ -340,6 +340,20 @@ ul.footnav li{
  }
 
 @media only screen and (max-width: 900px) {
+
+    ul.topnav li{
+        /*display: block;*/
+        margin-left:0;
+        margin-right: 0;
+        /*float: right;*/
+    }
+    .customers {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
     ul.topnav {
         margin-top: 0.5em;
         padding: 0;
@@ -355,12 +369,8 @@ ul.footnav li{
     }
 
     .customers {
-        font-size: 1.2em;
+        font-size: 1em;
     }
-}
-
-@media only screen and (max-width: 600px) {
-
 
     ul.footnav {
         font-size: 0.8em;
