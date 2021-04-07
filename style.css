@@ -37,13 +37,14 @@ li a:hover {
 }
 
 ul.topnav {
+    /*height: auto;*/
     margin-top: 2em;
     padding: 0;
     float: right;
     font-size: 20px;
 }
 
-ul.topnav li{
+ul.topnav li {
     display: inline;
     margin-left: 1em;
     margin-right: 1em;
@@ -52,6 +53,43 @@ ul.topnav li{
 
 .center {
     margin: auto;
+}
+
+div.menu {
+    height: auto;
+    width: 100%;
+    background-image: url("images/oldPaperBackground.jpg");
+    margin-top: 100px;
+}
+
+div.menuItem {
+    padding: 40px;
+}
+
+.productColumn {
+     float: left;
+    padding: 1%;
+ }
+
+.left {
+    width: 28%;
+}
+.middle {
+    width: 40%
+}
+.right {
+    width: 10%;
+}
+
+.productImage {
+    border: 10px solid white;
+    box-shadow: 10px 10px 10px black;
+}
+
+.productDescription {
+    /*padding: 20px;*/
+    border: 10px solid white;
+margin-left: 40px;
 }
 
 .parent {
@@ -100,6 +138,7 @@ ul.topnav li{
     font-size: 1.2em;
     box-shadow: 1px 1px 10px dimgrey;
 }
+
 .cta:hover {
     color: burlywood;
 }
@@ -139,6 +178,7 @@ ul.topnav li{
     float: left;
     width: 25%;
 }
+
 .row::after {
     content: "";
     clear: both;
@@ -154,7 +194,7 @@ ul.topnav li{
 }
 
 #footer {
-    margin-top: 481px;
+    margin-top: auto; /*481px*/
     grid-column: 1 / span 6;
     grid-row: 5 / span 1;
     position: relative;
@@ -169,33 +209,39 @@ ul.topnav li{
     text-align: center;
 }
 
+#footer.main {
+    margin-top: 481px;
+}
+
 ul.footnav {
     float: left;
     text-align: left;
     margin: 1em;
 }
 
-ul.footnav li{
+ul.footnav li {
     padding: 0.5em;
 
 }
- ul.contacts {
-     font-size: 16px;
-     float: right;
-     text-align: left;
-     margin: 1em;
- }
 
- ul.contacts li{
-     padding: 0.5em;
- }
+ul.contacts {
+    font-size: 16px;
+    float: right;
+    text-align: left;
+    margin: 1em;
+}
+
+ul.contacts li {
+    padding: 0.5em;
+}
 
 @media only screen and (max-width: 900px) {
 
-    ul.topnav li{
-        margin-left:0;
+    ul.topnav li {
+        margin-left: 0;
         margin-right: 0;
     }
+
     .customers {
         font-size: 1.2em;
     }
@@ -210,7 +256,7 @@ ul.footnav li{
         font-size: 18px;
     }
 
-    ul.topnav li{
+    ul.topnav li {
         display: block;
         margin-left: 1em;
         margin-right: 1em;
