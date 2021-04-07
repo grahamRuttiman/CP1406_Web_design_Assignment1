@@ -72,7 +72,15 @@ div.menuItem {
     width: 20%;
 }
 
+.menuHeading {
+    color: black;
+    padding: 20px;
+    font-size: 3em;
+    text-align: center;
+}
+
 .menuDescription {
+    margin-top: 0;
     font-family: serif;
     font-size: 20px;
     color: black;
