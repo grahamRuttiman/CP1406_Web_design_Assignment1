@@ -1,85 +1,96 @@
 <!DOCTYPE html>
 <html xmlns:style="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css" href="//fonts.googleapis.com/css?family=Cabin+Sketch">
 </head>
 <body>
 
-<!--<div>-->
-<!--<div class="header">-->
-<!--    <p>TRAINING ZONE</p>-->
-<!--</div>-->
-
-<!--&lt;!&ndash; Site navigation menu &ndash;&gt;-->
-<!--<div>-->
-<!--    <ul class="navbarHorizontal">-->
-<!--        <li><a href="index.html">Home</a></li>-->
-<!--        <li><a href="trainers.html">Trainers</a></li>-->
-<!--        <li><a href="articles.html">Articles</a></li>-->
-<!--    </ul>-->
-<!--</div>-->
-<!--</div>-->
-
-<div class="grid-container" >
+<div class="grid-container">
     <div class="header">
-        <img src="images/logo_resized.jpg" alt="Sun and Moon Cafe Logo" style="">
+        <div class="column">
+            <!-- Logo-->
+            <img src="images/logo_resized.jpg" alt="Sun and Moon Cafe Logo">
+        </div>
+        <!-- Site navigation menu -->
+        <div>
+            <ul class="topnav">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="cheeseburger.html">MENU</a></li>
+                <li><a href="specials.html">SPECIALS</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+            </ul>
+        </div>
     </div>
 
-    <!-- Site navigation menu -->
-    <div class="navbarHorizontal">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="trainers.html">Trainers</a></li>
-            <li><a href="articles.html">Articles</a></li>
+    <!-- Main Image-->
+    <div class="parent">
+        <img class="image1" src="images/coffee_shop_resized.jpg" alt="Picture of coffee shop">
+        <div>
+            <!--            Logo-->
+            <img class="image2" src="images/logo_shadow_black.png" alt="Logo">
+            <!--            Welcome message-->
+            <div class="welcome">Coffee / Dine / Relax</div>
+        </div>
+        <!--        Newsletter CTA-->
+        <a href="newsletter.html" style="text-decoration: none">
+            <div class="cta">
+                <p>Become a friend of the cafe and receive great deals</p>
+            </div>
+        </a>
+    </div>
+
+    <!--Customer Testimonials-->
+    <div class="testimonials">
+        <h1>What our customers are saying...</h1>
+        <p class="customers"><em>"Sun and Moon Cafe has the best coffee I've ever had. Best service in town."</em></p>
+        <p class="customers"><em>"Such a nice place to hang out. Their sandwiches and coffee are awesome."</em></p>
+    </div>
+
+    <!--    Product Images-->
+    <div class="products">
+        <div class="row">
+            <!--Cheeseburger-->
+            <div class="column">
+                <img src="images/cheeseburger_products_resized.jpg" alt="Cheeseburger Image">
+            </div>
+            <!--Salads-->
+            <div class="column">
+                <img src="images/salads_products_resized.jpg" alt="Salads Image">
+            </div>
+            <!--Soup-->
+            <div class="column">
+                <img src="images/tomato_soup_products_resized.jpg" alt="Tomato soup Image">
+            </div>
+            <!--Sandwich-->
+            <div class="column">
+                <img src="images/sandwich.jpg" alt="Sandwich Image">
+            </div>
+        </div>
+    </div>
+
+    <div id="footer" class="main">
+        <!-- Bottom navigation menu -->
+        <div>
+            <ul class="footnav">
+                <li><a href="draft.html">HOME</a></li>
+                <li><a href="cheeseburger.html">MENU</a></li>
+                <li><a href="specials.html">SPECIALS</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+            </ul>
+        </div>
+<!--        Contacts-->
+        <div>
+        <ul class="contacts">
+            <li>CONTACTS: 0455 9999 555</li>
+            <li>CATERING: 0433 3333 999</li>
+            <li>ADDRESS:  </li>
+            <li>223 Powell St in Bowen, Queensland</li>
         </ul>
-
+        </div>
     </div>
 
-<!--    <div style="background-image: url("images/coffee_shop_resized.jpg")"></div>-->
-
-    <img class="main item8" src="images/coffee_shop_resized.jpg" alt ="Picture of coffee shop"
-         style="margin: 0; padding:0">
-<!--<p style="text-align: center; color: white; position: absolute">here</p>-->
-
-    <!--    <div class="item1" style="background-color: chartreuse">hi</div>-->
-<!--    <div class="item2" style="background-color: aqua">hi</div>-->
-<!--    <div class="item3" style="background-color: aqua">hi</div>-->
-<!--    <div class="item4" style="background-color: aqua">hi</div>-->
-<!--    <div class="item6" style="background-color: blue">hi</div>-->
-<!--    <div class="item7" style="background-color: blueviolet">hi</div>-->
-<!--    <div class="item5" style="background-color: red">hi</div>-->
-<!--    <img src="images/coffee_shop_resized.jpg" style="margin: 0; padding:0">-->
-
-
-    <div id="footer">
-        <p> HI </p>
-    </div>
 </div>
-<!--&lt;!&ndash;<div class="row">&ndash;&gt;-->
-<!--<div class="column" style="background-color: chartreuse">-->
-<!--    hi-->
-<!--</div>-->
-<!--<div class="column" style="background-color: aqua">-->
-<!--    there-->
-<!--</div>-->
-<!--<div class="column" style="background-color: red">-->
-<!--    sunshine-->
-<!--</div>-->
-<!--<div class="column" style="background-color: chartreuse">-->
-<!--    hi-->
-<!--</div>-->
-<!--<div class="column" style="background-color: aqua">-->
-<!--    there-->
-<!--</div>-->
-<!--<div class="column" style="background-color: red">-->
-<!--    sunshine-->
-<!--</div>-->
-<!--</div>-->
-
-<!--<div id="footer">-->
-<!--    <p> HI </p>-->
-<!--</div>-->
 
 </body>
 </html>
