@@ -53,6 +53,7 @@ ul.topnav li {
 
 .center {
     margin: auto;
+    text-align: center;
 }
 
 div.menu {
@@ -67,6 +68,9 @@ div.menuItem {
     padding: 40px;
 }
 
+/*.item {*/
+/*    width: 100%;*/
+/*}*/
 .menuColumn {
     float: left;
     width: 20%;
@@ -262,6 +266,13 @@ ul.contacts li {
 }
 
 @media only screen and (max-width: 1100px) {
+    .menuDescription {
+        font-size: 18px;
+    }
+    /*.item {*/
+    /*    width: 50%;*/
+    /*}*/
+
     .left {
         width: 40%;
     }
